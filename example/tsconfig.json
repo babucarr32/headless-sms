@@ -1,0 +1,10 @@
+{
+  "extends": "expo/tsconfig.base",
+  "compilerOptions": {
+    "strict": true,
+    "paths": {
+      "headless-sms": ["../src/index"],
+      "headless-sms/*": ["../src/*"]
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "platforms": [
+    "apple",
+    "android",
+    "web"
+  ],
+  "apple": {
+    "modules": [
+      "HeadlessSmsModule"
+    ]
+  },
+  "android": {
+    "modules": [
+      "expo.modules.headlesssms.HeadlessSmsModule"
+    ]
+  }
+}
